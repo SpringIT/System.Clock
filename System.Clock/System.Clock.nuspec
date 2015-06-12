@@ -15,7 +15,7 @@
     <dependencies></dependencies>
   </metadata>
   <files>
-    <file src="bin\$configuration$\System.Clock.dll" />
-    <file src="bin\$configuration$\System.Clock.pdb"  />
+    <file src="bin\$configuration$\System.Clock.dll" target="lib\net45\"/>
+    <file src="bin\$configuration$\System.Clock.pdb" target="lib\net45\" />
   </files>
 </package>
