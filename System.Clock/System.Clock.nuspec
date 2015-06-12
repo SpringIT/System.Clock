@@ -3,10 +3,11 @@
   <metadata>
     <id>SpringIt.System.Clock</id>
     <version>$version$</version>
-    <title>SpringIt Client Common</title>
+    <title>System Clock</title>
     <authors>Spring IT</authors>
     <owners>Spring IT Solutions B.V.</owners>
     <projectUrl>https://github.com/SpringIT/System.Clock</projectUrl>
+	<licenseUrl>https://github.com/SpringIT/System.Clock/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A testable clock.</description>
     <releaseNotes>-</releaseNotes>
