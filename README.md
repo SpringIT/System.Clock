@@ -7,4 +7,4 @@ A testable clock to replace DateTime.
 
 ## Documentation
 
-Documentation will be up on the wiki a little later for now see test project for samples
+Please see our [wiki](https://github.com/SpringIT/System.Clock/wiki) page
