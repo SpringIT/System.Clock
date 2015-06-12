@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SpringIt.System.Clock</id>
+    <version>$version$</version>
+    <title>SpringIt Client Common</title>
+    <authors>Spring IT</authors>
+    <owners>Spring IT Solutions B.V.</owners>
+    <projectUrl>https://github.com/SpringIT/System.Clock</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A testable clock.</description>
+    <releaseNotes>-</releaseNotes>
+    <copyright></copyright>
+    <tags>DateTime, Clock, Testable</tags>
+    <dependencies></dependencies>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\System.Clock.dll" />
+    <file src="bin\$configuration$\System.Clock.pdb"  />
+  </files>
+</package>
