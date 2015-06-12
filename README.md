@@ -5,6 +5,15 @@
 
 A testable clock to replace DateTime.
 
+## Download from nuget.org
+
+System.Clock is available on [nuget.org](https://www.nuget.org/packages/SpringIt.System.Clock/)
+
+Or use the following command in your package manager console
+```
+Install-Package SpringIt.System.Clock
+```
+
 ## Documentation
 
 Please see our [wiki](https://github.com/SpringIT/System.Clock/wiki) page
