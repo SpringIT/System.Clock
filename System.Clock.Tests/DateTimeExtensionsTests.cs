@@ -63,5 +63,25 @@ namespace System.Tests
 
             date.EndOfMonth().Should().Be(expected);
         }
+
+
+        [Test]
+        public void StartOfMonthWithAllDaysInAGivenMonth()
+        {
+            const int year = 2014;
+            const int month = 12;
+
+            var daysInMonth = DateTime.DaysInMonth(year, month);
+
+            for (var day = 1; day < daysInMonth; day++)
+            {
+                var date = new DateTime(year, 12, day, 12, 0, 0);
+                var expected = new DateTime(year, month, 1, 0, 0, 0);
+                date.StartOfMonth().Should().Be(expected);
+            }
+
+        }
+
+
     }
 }

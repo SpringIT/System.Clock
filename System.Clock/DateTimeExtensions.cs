@@ -30,6 +30,5 @@ namespace System
         {
             return new DateTime(dateTime.Year, dateTime.Month, 1).StartOfDay();
         }
-      
     }
 }
