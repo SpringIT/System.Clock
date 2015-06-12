@@ -56,10 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\System.Clock\System.Clock.csproj">
-      <Project>{394F41DF-B3B1-4CC6-BE4F-DDC7470402CC}</Project>
-      <Name>System.Clock</Name>
-    </ProjectReference>
     <ProjectReference Include="..\System.Clock\System.csproj">
       <Project>{394f41df-b3b1-4cc6-be4f-ddc7470402cc}</Project>
       <Name>System</Name>
