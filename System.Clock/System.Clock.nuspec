@@ -9,10 +9,10 @@
     <projectUrl>https://github.com/SpringIT/System.Clock</projectUrl>
 	<licenseUrl>https://github.com/SpringIT/System.Clock/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A testable clock.</description>
+    <description>A testable replacement for DateTime.</description>
     <releaseNotes>-</releaseNotes>
     <copyright></copyright>
-    <tags>DateTime, Clock, Testable</tags>
+    <tags>datetime, clock, testable, unittest, unit-test, test</tags>
     <dependencies></dependencies>
   </metadata>
   <files>
