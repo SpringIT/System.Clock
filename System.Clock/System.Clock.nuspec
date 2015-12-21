@@ -8,6 +8,7 @@
     <owners>Spring IT Solutions B.V.</owners>
     <projectUrl>https://github.com/SpringIT/System.Clock</projectUrl>
 	<licenseUrl>https://github.com/SpringIT/System.Clock/blob/master/LICENSE.md</licenseUrl>
+	<iconUrl>https://raw.githubusercontent.com/SpringIT/System.Clock/master/icon64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A testable replacement for DateTime.</description>
     <releaseNotes>-</releaseNotes>
