@@ -53,7 +53,7 @@ namespace System.Tests
         }
 
         [Test]
-        public void MinOfByMillisecond()
+        public void MaxOfByMillisecond()
         {
             var left = Clock.Today;
             var right = Clock.Today.AddMilliseconds(1);
