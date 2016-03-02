@@ -23,6 +23,16 @@ namespace System.Tests
         }
 
         [Test]
+        public void MinInvertedParams()
+        {
+            var left = Clock.Tomorrow;
+            var right = Clock.Today;
+
+            var actual = Clock.Min(left, right);
+            actual.Should().Be(right);
+        }
+
+        [Test]
         public void Max()
         {
             var left = Clock.Today;
@@ -31,5 +41,27 @@ namespace System.Tests
             var actual = Clock.Max(left, right);
             actual.Should().Be(right);
         }
+
+        [Test]
+        public void MaxInvertedParams()
+        {
+            var left = Clock.Tomorrow;
+            var right = Clock.Today;
+
+            var actual = Clock.Max(left, right);
+            actual.Should().Be(left);
+        }
+
+        [Test]
+        public void MinOfByMillisecond()
+        {
+            var left = Clock.Today;
+            var right = Clock.Today.AddMilliseconds(1);
+
+            var actual = Clock.Max(left, right);
+            actual.Should().Be(right);
+        }
+
+
     }
 }
