@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MinMaxTest.cs" />
     <Compile Include="ClockTest.cs" />
     <Compile Include="DateTimeExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
