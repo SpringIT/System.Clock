@@ -1,7 +1,6 @@
 # System.Clock
 
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/SpringIT/System.Clock?branch=master&svg=true)]
-(https://ci.appveyor.com/project/SpringIT/system-clock)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/SpringIT/System.Clock?branch=master&svg=true)](https://ci.appveyor.com/project/SpringIT/system-clock) [![NuGet](https://img.shields.io/nuget/v/SpringIt.System.Clock.svg?maxAge=2592000)](http://www.nuget.org/packages/SpringIt.System.Clock/)
 
 [![NuGet](https://img.shields.io/nuget/v/SpringIt.System.Clock.svg?maxAge=2592000)]()
 
