@@ -13,7 +13,7 @@
     <description>A testable replacement for DateTime.</description>
     <releaseNotes>-</releaseNotes>
     <copyright></copyright>
-    <tags>datetime, clock, testable, unittest, unit-test, test</tags>
+    <tags>datetime, clock, testable, unittest, unit-test, test, di, dependency injection</tags>
     <dependencies></dependencies>
   </metadata>
   <files>

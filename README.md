@@ -3,6 +3,8 @@
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/SpringIT/System.Clock?branch=master&svg=true)]
 (https://ci.appveyor.com/project/SpringIT/system-clock)
 
+[![NuGet](https://img.shields.io/nuget/v/SpringIt.System.Clock.svg?maxAge=2592000)]()
+
 A testable clock to replace DateTime.
 
 ## Download from nuget.org
