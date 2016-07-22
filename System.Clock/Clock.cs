@@ -1,5 +1,6 @@
 ﻿namespace System
 {
+    [Obsolete("This class is obsolete please use IClock and will be removed in the next version")]
     public static class Clock
     {
         private static readonly Func<DateTime> DefaultDateProvider = () => DateTime.UtcNow;

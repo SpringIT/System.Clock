@@ -40,8 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clock.cs" />
-    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="ClockExtensions.cs" />
+    <Compile Include="ClockProvider.cs" />
+    <Compile Include="IClock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="System.Clock.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,12 +7,6 @@ namespace System.Tests
     [TestFixture]
     public class DateTimeExtensionsTests
     {
-        [TearDown]
-        public void Setup()
-        {
-            Clock.Reset();
-        }
-
         [TestCase(2014, 1, 1,31)]
         [TestCase(2014, 2, 1,28)]
         [TestCase(2014, 3, 1,31)]
@@ -79,9 +73,6 @@ namespace System.Tests
                 var expected = new DateTime(year, month, 1, 0, 0, 0);
                 date.StartOfMonth().Should().Be(expected);
             }
-
         }
-
-
     }
 }
