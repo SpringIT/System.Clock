@@ -59,3 +59,5 @@ ClientBin
 [Ss]tyle[Cc]op.*
 ~$*
 
+
+/.vs/*

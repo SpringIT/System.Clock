@@ -1,5 +1,4 @@
-﻿using System.Runtime.Remoting.Metadata.W3cXsd2001;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
 
 namespace System.Tests
