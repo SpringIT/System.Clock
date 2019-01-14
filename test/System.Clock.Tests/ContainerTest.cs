@@ -8,7 +8,7 @@ namespace System.Tests
     public class ContainerTest 
     {
         [Test]
-        public void Container()
+        public void ClockProvider_Container()
         {
             var container = new Container();
             container.Register<IClock, ClockProvider>();
@@ -16,6 +16,17 @@ namespace System.Tests
             var clock = container.GetInstance<IClock>();
 
             clock.Now.Should().BeCloseTo(DateTime.Now);
+        }
+
+        [Test]
+        public void UTcClockProvider_Container()
+        {
+            var container = new Container();
+            container.Register<IClock, UtcClockProvider>();
+
+            var clock = container.GetInstance<IClock>();
+
+            clock.Now.Should().BeCloseTo(DateTime.UtcNow);
         }
 
         private class MondayChecker
